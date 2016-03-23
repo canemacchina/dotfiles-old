@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"Material Theme",
+		"Maybs Quit",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"SCSS",
+		"SideBarEnhancements",
+		"SyncedSideBar",
+		"TrailingSpaces"
+	]
+}

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ITERMOCIL_DIR_NAME="itermocil"
+ITERMOCIL_DIR_PATH="${RESOURCES_DIRECTORY}/${ITERMOCIL_DIR_NAME}"
+
+function setup_itermocil(){
+  run "linking itermocil directory"
+  link "${ITERMOCIL_DIR_PATH}" "${HOME}/.${ITERMOCIL_DIR_NAME}"
+}
