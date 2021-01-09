@@ -13,14 +13,16 @@
 		"Dotfiles Syntax Highlighting",
 		"EditorConfig",
 		"Emmet",
+		"MarkdownPreview",
 		"Material Theme",
 		"Maybs Quit",
 		"Origami",
 		"Package Control",
 		"PackageResourceViewer",
+		"Pretty JSON",
 		"SCSS",
 		"SideBarEnhancements",
 		"SyncedSideBar",
 		"TrailingSpaces"
-	]
+	],
 }

@@ -64,7 +64,7 @@ function check_requirements(){
   message "check for brew installation"
   if ! command_exists 'brew'; then
     run "installing Homebrew"
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     brew doctor
   else
     message "nothing to do, brew already installed"
@@ -136,14 +136,11 @@ function install_system(){
     message "install apps"
     install_apps
 
-    message "install node and npm packages"
-    install_node_and_packages
+    message "install rebase-editor"
+    npm i -g rebase-editor
 
     message "setup ZSH"
     set_zsh_shell
-
-    message "install poetry"
-    setup_poetry
 
     message "setup sublime text"
     setup_sublime
@@ -154,14 +151,8 @@ function install_system(){
     message "copy dotfiles"
     setup_dotfiles
 
-    message "install itermocil layouts"
-    setup_itermocil
-
-    message "Installing pip packages"
-    install_pip_packages
-
-    message "Setup squid conf"
-    setup_squid
+#    message "install itermocil layouts"
+#    setup_itermocil
 
     message "set osx preferences"
     set_osx_preferences
@@ -190,20 +181,11 @@ function backup_system(){
     message "backup brew and brew cask packages"
     backup_apps
 
-    message "backup npm packages"
-    backup_npm_packages
-
     message "backup sublime text"
-    bakup_sublime
+    backup_sublime
 
     message "backup fonts"
     backup_fonts
-
-    message "backup pip packages"
-    backup_pip_packages
-
-    message "backup squid conf"
-    backup_squid
 
     message "commit and push changes"
     cd ${DOTFILES_DIRECTORY}
@@ -228,13 +210,9 @@ check_requirements
 
 source ./scripts/apps
 source ./scripts/dotfiles
-source ./scripts/itermocil
 source ./scripts/fonts
-source ./scripts/nvm
+source ./scripts/itermocil
 source ./scripts/osx
-source ./scripts/pip
-source ./scripts/poetry
-source ./scripts/squid
 source ./scripts/sublime
 source ./scripts/zsh
 

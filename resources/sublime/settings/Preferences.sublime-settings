@@ -5,11 +5,11 @@
 	[
 		{
 			"characters": "<",
-			"selector": "text.html"
+			"selector": "text.html",
 		},
 		{
 			"characters": ".",
-			"selector": "source.js"
+			"selector": "source.js",
 		}
 	],
 	"bold_folder_labels": true,
@@ -22,20 +22,20 @@
 	[
 		"no_italic"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Angular2 HTML Syntax",
 		"Dockerfile Syntax Highlighting",
-		"FileDiffs",
-		"MarkdownPreview",
-		"Ngx HTML",
-		"SublimeLinter-eslint",
-		"SublimeLinter-pep8",
-		"SublimeLinter-shellcheck",
+		"ESLint-Formatter",
+		"GitSavvy",
+		"Markdown Preview",
+		"ReactJS",
+		"SublimeLinter-pyflakes",
 		"Sync View Scroll",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -60,5 +60,5 @@
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
 }
