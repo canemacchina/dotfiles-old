@@ -7,7 +7,6 @@ cairo
 coreutils
 dav1d
 diff-so-fancy
-direnv
 docker-clean
 ffmpeg
 findutils
@@ -114,7 +113,6 @@ speex
 sqlite
 squid
 srt
-starship
 telnet
 tesseract
 the_silver_searcher

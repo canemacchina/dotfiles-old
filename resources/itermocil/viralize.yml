@@ -10,11 +10,9 @@ windows:
     panes:
       - commands:
         - cd viralize-injector
-        - nvm use old_player
         - cls
       - commands:
         - cd viralize-player
-        - nvm use old_player
         - cls
   - name: EXPERIMENTS
     root: ~/git/viralize/viralize-adserver-experiments
@@ -31,5 +29,4 @@ windows:
     layout: tiled
     panes:
       - commands:
-        - nvm use player
         - cls

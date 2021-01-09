@@ -1,6 +1,9 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+export NVM_DIR="$HOME/.nvm"
+export BREW_PREFIX=$(brew --prefix)
+
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
 
@@ -74,6 +77,3 @@ source ~/.vvm/setup
 
 #see https://github.com/GoogleCloudPlatform/gsutil/issues/961
 export CLOUDSDK_PYTHON=/usr/local/opt/python@3.7/bin/python3
-
-export NVM_DIR="$HOME/.nvm"
-export BREW_PREFIX=$(brew --prefix)
