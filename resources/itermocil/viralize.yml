@@ -25,7 +25,7 @@ windows:
     panes:
       - cls
   - name: NEW PLAYER
-    root: ~/git/viralize/newPlayer/viralize-player
+    root: ~/git/showheroes/video-player-v3
     layout: tiled
     panes:
       - commands:

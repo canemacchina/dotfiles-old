@@ -21,7 +21,7 @@ alias flush_dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder;'
 alias update_host_no_ads='python3 ~/git/hosts/updateHostsFile.py -a -g -e gambling fakenews && cp ~/git/hosts/hosts ~/bitbarPlugins/hosts/NO_ADS'
 alias update_osx='printf "check apple update\n"; sudo softwareupdate --verbose -i -a;'
 alias update_brew='printf "update brew\n"; brew update -v; brew upgrade; brew cu -ay --cleanup; brew cleanup -s; brew doctor; brew missing;'
-alias update_zsh='printf "update zgen\n"; zgen selfupdate; printf "update zgen plugins\n"; zgen update; source ~/.zshrc; zgen reset;'
+alias update_zsh='printf "update zinit\n"; zinit self-update; printf "update zinit plugins\n"; zinit update;'
 alias update='update_brew; update_zsh;'
 
 alias backup='bash ~/git/dotfiles/setup.sh -b'
