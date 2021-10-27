@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Dockerfile Syntax Highlighting",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"FileDiffs",
+		"GitGutter",
+		"INI",
+		"MarkdownPreview",
+		"Maybs Quit",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"Sync View Scroll",
+		"SyncedSideBar",
+		"Theme - One Dark",
+		"TrailingSpaces",
+		"Trimmer",
+	],
+	"in_process_packages":
+	[
+	],
+}

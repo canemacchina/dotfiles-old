@@ -1,0 +1,9 @@
+normal_color=12631996
+focused_color=16777215
+urgent_color=16711680
+mode_color=16380011
+visible_color=12631996
+strip_workspace_numbers=false
+auto_detect_outputs=true
+output=HDMI-A-2
+

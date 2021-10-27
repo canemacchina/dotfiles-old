@@ -1,0 +1,252 @@
+# Mod key is WIN
+set $mod Mod4
+set $alt Mod1
+
+##################################
+##                              ##
+##          Workspaces          ##
+##                              ##
+##################################
+
+# Names
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# switch
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# move to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+bindsym $mod+$alt+Right workspace next_on_output
+bindsym $mod+$alt+Left workspace prev_on_output
+
+##################################
+##                              ##
+##           Theming            ##
+##                              ##
+##################################
+
+font pango:Cantarell 10
+
+for_window [class="Xfce4-appfinder"] floating enable
+for_window [class="Gcolor3"] floating enable
+for_window [window_role="About"] floating enable
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
+for_window [window_type="save_as"] floating enable
+
+for_window[window_role="Dialog*"] focus
+popup_during_fullscreen leave_fullscreen
+
+for_window [class="^.*"] border pixel 3
+default_border pixel 3
+default_floating_border none
+hide_edge_borders smart
+smart_borders on
+gaps outer 2
+gaps inner 2
+
+# Property Name         Border  BG      Text    Indicator Child Border
+client.focused          #404552 #404552 #abb2bf #FDF6E3  #666A76
+client.focused_inactive #2F343F #2F343F #5c6370 #454948
+client.unfocused        #2F343F #2F343F #5c6370 #454948
+client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+client.placeholder      #000000 #0c0c0c #ffffff #000000
+client.background       #2B2C2B
+
+# Orientation
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+# Mode
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Fullscreen
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Ctrl+f focus parent; fullscreen; focus child
+
+# toggle tiling / floating
+bindsym $mod+Shift+f floating toggle
+
+# Drag floating windows
+floating_modifier $mod
+
+# Focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+##################################
+##                              ##
+##            MODES             ##
+##                              ##
+##################################
+
+# Resize
+set $resize "Resize"
+mode $resize {
+        # These bindings trigger as soon as you enter the resize mode
+
+        bindsym Left resize shrink width 1 px or 1 ppt
+        bindsym Right resize grow width 1 px or 1 ppt
+        bindsym Down resize shrink height 1 px or 1 ppt
+        bindsym Up resize grow height 1 px or 1 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+bindsym $mod+r mode $resize
+
+# Kill
+set $close "Close the window? (y)es/(n)o (or use Enter/Esc)"
+mode $close {
+    bindsym Return kill, mode "default"
+    bindsym y kill, mode "default"
+    bindsym Escape mode "default"
+    bindsym n mode "default"
+}
+bindsym $mod+q mode $close
+
+# Alternative version using zenity
+# bindsym $mod+q exec --no-startup-id xdotool getactivewindow | xargs -I ID bash -c 'zenity --question --text="Close the window?" --no-wrap && i3-msg [id=ID] kill'
+
+# Kill with no prompt
+bindsym $mod+Shift+q kill
+
+# Shutdown
+# set $mode_system "(l)ock, (e)xit, (s)uspend, (r)eboot, (p)ower off"
+# mode $mode_system {
+#         bindsym l exec --no-startup-id betterlockscreen --lock dimblur, mode "default"
+#         bindsym s exec --no-startup-id systemctl suspend, mode "default"
+#         bindsym e exec --no-startup-id i3-msg exit, mode "default"
+#         bindsym r exec --no-startup-id systemctl reboot, mode "default"
+#         bindsym p exec --no-startup-id systemctl poweroff, mode "default"
+#         bindsym Return mode "default"
+#         bindsym Escape mode "default"
+# }
+# bindsym $mod+Shift+e mode $mode_system
+bindsym $mod+Shift+e exec --no-startup-id xfce4-session-logout
+
+##################################
+##                              ##
+##         Special keys         ##
+##                              ##
+##################################
+
+# Volume
+# bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -u -i 5
+# bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -u -d 5
+# bindsym XF86AudioMute exec --no-startup-id pamixer -t
+# bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# Backlight
+# bindsym XF86MonBrightnessDown exec xbacklight -5
+# bindsym XF86MonBrightnessUp exec xbacklight +5
+
+# Media control
+# bindsym XF86AudioPlay exec playerctl play-pause
+
+##################################
+##                              ##
+##        Apps & Scripts        ##
+##                              ##
+##################################
+
+# Assing apps to workspaces
+# assign [class="TelegramDesktop"] $ws9
+# assign [class="Slack"] $ws10
+
+bindsym $mod+Return exec "i3-msg fullscreen disable && i3-sensible-terminal"
+
+# Xfce setting daemon
+exec --no-startup-id xfsettingsd --replace --daemon
+exec --no-startup-id "xfce4-panel -q && xfce4-panel -d &"
+
+# Screen and Wallpaper
+# exec --no-startup-id autorandr --change && bash $HOME/.fehbg
+exec --no-startup-id bash $HOME/.fehbg
+
+# Menu
+# bindsym $mod+space exec "i3-msg fullscreen disable && rofi -modi drun -show drun -theme custom"
+bindsym $mod+space exec "i3-msg fullscreen disable && xfce4-appfinder"
+
+# Window switcher
+# bindsym $mod+Tab exec "rofi -modi window -show window -theme custom"
+
+# Picom
+exec --no-startup-id picom -b
+
+# Wifi
+# exec --no-startup-id nm-applet
+
+# Bluetooth
+# exec --no-startup-id blueman-applet
+
+# Video card
+# exec --no-startup-id optimus-manager-qt
+
+# Keyboard repeate rate
+# exec --no-startup-id xset r rate 350 35
+
+# Screenshot
+bindsym Print exec --no-startup-id xfce4-screenshooter
+bindsym Shift+Print exec --no-startup-id xfce4-screenshooter -r
+
+# Clipboard
+bindsym Ctrl+Shift+v exec --no-startup-id xfce4-popup-clipman
+
+# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
+# screen before suspend. Use loginctl lock-session to lock your screen.
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+##################################
+##                              ##
+##             Misc             ##
+##                              ##
+##################################
+
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+bindsym $mod+x [urgent=latest] focus
