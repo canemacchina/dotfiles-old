@@ -1,0 +1,1145 @@
+{
+	"folder_history":
+	[
+		"/home/master/git/dotfiles",
+		"/home/master/.config",
+		"/home/master/.config/rofi/powermenu",
+		"/home/master/.config/rofi",
+		"/home/master/git/totoro/dotfiles",
+		"/home/master/git/totoro/dotfiles/.config/i3",
+		"/home/master/.config/polybar"
+	],
+	"last_version": 4121,
+	"last_window_id": 45,
+	"log_indexing": false,
+	"next_update_check": 1637703605,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1150.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"form",
+						"format-volume"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"packag",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"view",
+						"View Package File"
+					],
+					[
+						"trimmer",
+						"Trimmer: Remove blank spaces."
+					],
+					[
+						"trimm",
+						"Trimmer: Normalize spaces."
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"add ",
+						"Project: Add Folder"
+					],
+					[
+						"add for",
+						"Project: Add Folder"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"package re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"pre",
+						"Preferences: Settings"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"intall",
+						"Package Control: Install Package"
+					],
+					[
+						"prefer",
+						"Preferences: Settings"
+					],
+					[
+						"pac",
+						"Package Control: List Packages"
+					],
+					[
+						"install p",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 166.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
+				"/home/master/.config/i3/config",
+				"/home/master/.config/picom/picom.conf",
+				"/home/master/.config/xfce4/desktop/icons.screen.latest.rc",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml",
+				"/home/master/.config/jgit/config",
+				"/home/master/.config/qt5ct/qt5ct.conf",
+				"/home/master/Desktop/note",
+				"/run/user/1000/kio-fuse-VcBuYa/smb/nas.local/home/Varie/note",
+				"/home/master/Desktop/CASA.ovpn",
+				"/home/master/.zshrc",
+				"/home/master/git/system/dotfiles/dotfiles/.zshrc",
+				"/home/master/.config/zsh/zshCustom/plugins/java/java.plugin.zsh",
+				"/home/master/.config/zsh/zshCustom/plugins/aliases/aliases.plugin.zsh",
+				"/home/master/git/multisafepay/afc/bin/afc",
+				"/home/master/.config/tmux/tmux.conf",
+				"/home/master/Downloads/openapi.json",
+				"/home/master/git/private/switch-prices-alert-v2/README.md",
+				"/home/master/git/private/tmp/myapp/README.md",
+				"/home/master/git/private/tmp/myapp/conf/application.conf",
+				"/home/master/.config/alacritty/alacritty.yml",
+				"/home/master/.config/zsh/zshCustom/plugins/bindkey/bindkey.plugin.zsh",
+				"/home/master/.config/kglobalshortcutsrc",
+				"/home/master/.config/touchegg/touchegg.conf",
+				"/home/master/.config/zsh/zshCustom/plugins/opts/opts.plugin.zsh",
+				"/home/master/.config/touchegg/.touchegg.lock",
+				"/home/master/.cache/yay/libfprint-tod-git/src/build/meson-logs/testlog.txt",
+				"/home/master/git/system/endeavouros-i3wm-setup/packages-repository.txt",
+				"/home/master/.config/i3/i3blocks.conf",
+				"/home/master/.config/i3/keybindings",
+				"/boot/grub/grub.cfg",
+				"/home/master/.gitconfig",
+				"/home/master/.config/gtk-3.0/settings.ini",
+				"/home/master/git/multisafepay/afc_db_scripts/PFX_MC_ITEMS_create.sql",
+				"/home/master/git/multisafepay/afc_db_scripts/PFX_VI_ITEMS_create.sql",
+				"/home/master/Downloads/MultiSafepay_l.bugiani_msp-development.ovpn",
+				"/home/master/.config/sublime-text/Packages/Theme - One Dark/One Dark.sublime-theme",
+				"/home/master/.vimrc",
+				"/home/master/.config/rofi/custom.rasi",
+				"/home/master/.config/rofi/onedark.rasi",
+				"/home/master/.config/polybar/config.ini",
+				"/home/master/.config/neofetch/config.conf",
+				"/home/master/.config/dunst/dunstrc",
+				"/home/master/.config/dunst/dunstrc.bck",
+				"/home/master/.config/polybar/modules/sep.ini",
+				"/home/master/.config/polybar/i3-window.py",
+				"/home/master/.config/polybar/modules/i3.ini",
+				"/home/master/.config/polybar/modules/glyph.ini",
+				"/home/master/.config/polybar/modules/volume.ini",
+				"/home/master/.config/polybar/launch.sh",
+				"/home/master/.config/polybar/modules/calendar.ini",
+				"/home/master/.config/polybar/modules/backlight.ini",
+				"/home/master/.config/polybar/modules/battery.ini",
+				"/home/master/git/dotfiles/neofetch/config.conf",
+				"/home/master/git/dotfiles/i3/config",
+				"/home/master/git/dotfiles/starship.toml",
+				"/home/master/.starship",
+				"/home/master/git/system/dotfiles/config/i3/config",
+				"/home/master/git/system/dotfiles/config/polybar/launch.sh",
+				"/home/master/git/dotfiles/polybar/launch.sh",
+				"/home/master/git/dotfiles/.prettierrc.yaml",
+				"/home/master/git/dotfiles/rofi/colors.rasi",
+				"/home/master/git/dotfiles/picom/picom.conf",
+				"/home/master/git/dotfiles/alacritty/alacritty.yml",
+				"/home/master/.config/picom/picom.conf.bak",
+				"/home/master/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/master/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/master/.Xresources",
+				"/home/master/.config/rofi/slate.rasi",
+				"/home/master/.config/rofi/base16-onedark.config",
+				"/home/master/.config/rofi/themes/sla.rasi",
+				"/home/master/.config/rofi/config",
+				"/home/master/.config/i3/clip",
+				"/home/master/.config/rofi/config.bac",
+				"/home/master/git/system/yay/src/yay-10.3.1/cmd.go",
+				"/home/master/.config/polybar/modules/date.ini",
+				"/home/master/note",
+				"/home/master/.config/betterlockscreenrc",
+				"/home/master/.zinit/plugins/lukechilds---zsh-nvm/zsh-nvm.plugin.zsh",
+				"/home/master/.profile",
+				"/etc/profile",
+				"/home/master/.zsh",
+				"/home/master/.config/QtProject.conf",
+				"/home/master/.config/greenclip.toml",
+				"/usr/share/doc/polybar/config",
+				"/home/master/.config/rofi/powermenu.rasi",
+				"/home/master/.config/rofi/clean.rasi",
+				"/home/master/.config/rofi/colors.rasi",
+				"/home/master/.config/i3/config.orig",
+				"/home/master/.config/rofi/launchers/misc/launcher.sh",
+				"/home/master/.config/rofi/launchers/misc/launchpad.rasi",
+				"/home/master/.config/rofi/applets/menu/powermenu.sh",
+				"/home/master/.config/rofi/applets/styles/colors.rasi",
+				"/home/master/.config/rofi/applets/menu/style.sh",
+				"/home/master/.config/rofi/powermenu/powermenu.sh",
+				"/home/master/.config/rofi/powermenu/styles/colors.rasi",
+				"/home/master/.config/rofi/powermenu/styles/berry.rasi",
+				"/home/master/.config/rofi/powermenu/styles/bluish.rasi",
+				"/home/master/.config/rofi/powermenu/card_alt.rasi",
+				"/home/master/.config/rofi/powermenu/full_square.rasi",
+				"/home/master/.config/rofi/powermenu/styles/nightly.rasi",
+				"/home/master/.config/rofi/powermenu/dock_rounded.rasi",
+				"/home/master/.config/user-dirs.dirs",
+				"/home/master/.config/mimeapps.list",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/battery.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/config_i3.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/glyphs.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/audacious.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/date.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/i3.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/colors/colors.nord.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/colors.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini",
+				"/home/master/.config/polybar/config",
+				"/home/master/.config/polybar/modules/brightness.ini",
+				"/home/master/.config/polybar/modules/title.ini",
+				"/home/master/.config/polybar/config_i3.ini",
+				"/home/master/git/dotfiles/config/polybar/config",
+				"/home/master/.config/polybar/scripts/brightness_i.sh",
+				"/home/master/.config/polybar/scripts/brightness_fast.sh",
+				"/home/master/.config/polybar/modules/glyphs.ini",
+				"/home/master/.config/polybar/colors.ini",
+				"/home/master/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/import-manager-50066c645b59827f15f1de05869e3053.code",
+				"/home/master/.git",
+				"/home/master/.config/sublime-text/Packages/Default/Default (Linux).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"space",
+					"alwa",
+					"xfce4",
+					"Shi",
+					"&gt;V",
+					"+V",
+					"zdharma",
+					"java",
+					"env",
+					"auto",
+					"path",
+					"nvm",
+					"Right",
+					"right",
+					"editor",
+					"<borderColor>000000</borderColor>",
+					"<color>000000</color>",
+					"\\n",
+					"exit",
+					"quit",
+					"plasm",
+					"\\n",
+					"theme",
+					"grid",
+					"notifi",
+					"(PFX_ASF\\w*).*",
+					"font",
+					"text",
+					"font",
+					"padd",
+					"font",
+					"full",
+					"radius",
+					"rad",
+					"round",
+					"icon",
+					"heig",
+					"frame",
+					"icon",
+					"stic",
+					"time",
+					"frame",
+					"bord",
+					"height",
+					"3",
+					"hist",
+					"rofi",
+					"rof",
+					"ali",
+					"xin",
+					"moni",
+					"print_empty",
+					"on_workspace",
+					"empt",
+					"print_window_title",
+					"print_focused_window_title",
+					"get_focused_window_title",
+					"title",
+					"print_focused_window_title",
+					"wm",
+					"rest",
+					"sep",
+					"left1",
+					"right1",
+					"left1",
+					"right1",
+					"left1",
+					"%{F#98c379} %{F-}",
+					"\\s+=",
+					"\\s+",
+					"\" \\| (.*)\\s+\\| rgb\\(.*\\)\\s+\\| (.*) \\|",
+					"color",
+					"urge",
+					"color",
+					"alert",
+					"alers",
+					"sep ",
+					"i3",
+					"front",
+					"batt",
+					"discharging",
+					"discharging_symbol",
+					"border",
+					"-color",
+					"$bg-color",
+					"colorb",
+					"poly",
+					"rofi",
+					"xss-lock",
+					"launch_bar",
+					"inactive",
+					"inacive",
+					"inactive",
+					"opaci",
+					"blur-method",
+					"dim",
+					"backend",
+					"ctrl",
+					"control",
+					"full",
+					"ali"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"<borderColor>FFFFFF</borderColor>",
+					"<color>FFFFFF</color>",
+					" ",
+					"$1",
+					"left",
+					"right",
+					"left",
+					"right",
+					"left",
+					"",
+					" =",
+					" ",
+					"$1 = $2",
+					"",
+					"launch"
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 234.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"i3/co",
+						".config/i3/config"
+					],
+					[
+						"batt",
+						".config/polybar/modules/battery.ini"
+					],
+					[
+						"titl",
+						"polybar/modules/title.ini"
+					],
+					[
+						"glyp",
+						"polybar/modules/glyphs.ini"
+					],
+					[
+						"i3/",
+						"i3/config"
+					],
+					[
+						"dim",
+						"Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/import-manager-50066c645b59827f15f1de05869e3053.code"
+					],
+					[
+						"pi",
+						"picom/picom.conf"
+					],
+					[
+						"pic",
+						"picom/picom.conf"
+					],
+					[
+						"sett",
+						"gtk-3.0/settings.ini"
+					],
+					[
+						"poly/",
+						"polybar/config"
+					],
+					[
+						"i3/c",
+						"i3/config"
+					],
+					[
+						"polyb/",
+						"polybar/config"
+					],
+					[
+						"conf",
+						"i3/config"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 395.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 543.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 245.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 949.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"form",
+						"format-volume"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"packag",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"view",
+						"View Package File"
+					],
+					[
+						"trimmer",
+						"Trimmer: Remove blank spaces."
+					],
+					[
+						"trimm",
+						"Trimmer: Normalize spaces."
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"colo",
+						"UI: Select Color Scheme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"add ",
+						"Project: Add Folder"
+					],
+					[
+						"add for",
+						"Project: Add Folder"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"package re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"pre",
+						"Preferences: Settings"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"them",
+						"UI: Select Theme"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"intall",
+						"Package Control: Install Package"
+					],
+					[
+						"prefer",
+						"Preferences: Settings"
+					],
+					[
+						"pac",
+						"Package Control: List Packages"
+					],
+					[
+						"install p",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 166.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/master/.config",
+				"/home/master/.config/i3",
+				"/home/master/.config/picom",
+				"/home/master/.config/zsh",
+				"/home/master/.config/zsh/zshCustom",
+				"/home/master/.config/zsh/zshCustom/plugins",
+				"/home/master/.config/zsh/zshCustom/plugins/functions"
+			],
+			"file_history":
+			[
+				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
+				"/home/master/.config/i3/config",
+				"/home/master/.config/picom/picom.conf",
+				"/home/master/.config/xfce4/desktop/icons.screen.latest.rc",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml",
+				"/home/master/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml",
+				"/home/master/.config/jgit/config",
+				"/home/master/.config/qt5ct/qt5ct.conf",
+				"/home/master/Desktop/note",
+				"/run/user/1000/kio-fuse-VcBuYa/smb/nas.local/home/Varie/note",
+				"/home/master/Desktop/CASA.ovpn",
+				"/home/master/.zshrc",
+				"/home/master/git/system/dotfiles/dotfiles/.zshrc",
+				"/home/master/.config/zsh/zshCustom/plugins/java/java.plugin.zsh",
+				"/home/master/.config/zsh/zshCustom/plugins/aliases/aliases.plugin.zsh",
+				"/home/master/git/multisafepay/afc/bin/afc",
+				"/home/master/.config/tmux/tmux.conf",
+				"/home/master/Downloads/openapi.json",
+				"/home/master/git/private/switch-prices-alert-v2/README.md",
+				"/home/master/git/private/tmp/myapp/README.md",
+				"/home/master/git/private/tmp/myapp/conf/application.conf",
+				"/home/master/.config/alacritty/alacritty.yml",
+				"/home/master/.config/zsh/zshCustom/plugins/bindkey/bindkey.plugin.zsh",
+				"/home/master/.config/kglobalshortcutsrc",
+				"/home/master/.config/touchegg/touchegg.conf",
+				"/home/master/.config/zsh/zshCustom/plugins/opts/opts.plugin.zsh",
+				"/home/master/.config/touchegg/.touchegg.lock",
+				"/home/master/.cache/yay/libfprint-tod-git/src/build/meson-logs/testlog.txt",
+				"/home/master/git/system/endeavouros-i3wm-setup/packages-repository.txt",
+				"/home/master/.config/i3/i3blocks.conf",
+				"/home/master/.config/i3/keybindings",
+				"/boot/grub/grub.cfg",
+				"/home/master/.gitconfig",
+				"/home/master/.config/gtk-3.0/settings.ini",
+				"/home/master/git/multisafepay/afc_db_scripts/PFX_MC_ITEMS_create.sql",
+				"/home/master/git/multisafepay/afc_db_scripts/PFX_VI_ITEMS_create.sql",
+				"/home/master/Downloads/MultiSafepay_l.bugiani_msp-development.ovpn",
+				"/home/master/.config/sublime-text/Packages/Theme - One Dark/One Dark.sublime-theme",
+				"/home/master/.vimrc",
+				"/home/master/.config/rofi/custom.rasi",
+				"/home/master/.config/rofi/onedark.rasi",
+				"/home/master/.config/polybar/config.ini",
+				"/home/master/.config/neofetch/config.conf",
+				"/home/master/.config/dunst/dunstrc",
+				"/home/master/.config/dunst/dunstrc.bck",
+				"/home/master/.config/polybar/modules/sep.ini",
+				"/home/master/.config/polybar/i3-window.py",
+				"/home/master/.config/polybar/modules/i3.ini",
+				"/home/master/.config/polybar/modules/glyph.ini",
+				"/home/master/.config/polybar/modules/volume.ini",
+				"/home/master/.config/polybar/launch.sh",
+				"/home/master/.config/polybar/modules/calendar.ini",
+				"/home/master/.config/polybar/modules/backlight.ini",
+				"/home/master/.config/polybar/modules/battery.ini",
+				"/home/master/git/dotfiles/neofetch/config.conf",
+				"/home/master/git/dotfiles/i3/config",
+				"/home/master/git/dotfiles/starship.toml",
+				"/home/master/.starship",
+				"/home/master/git/system/dotfiles/config/i3/config",
+				"/home/master/git/system/dotfiles/config/polybar/launch.sh",
+				"/home/master/git/dotfiles/polybar/launch.sh",
+				"/home/master/git/dotfiles/.prettierrc.yaml",
+				"/home/master/git/dotfiles/rofi/colors.rasi",
+				"/home/master/git/dotfiles/picom/picom.conf",
+				"/home/master/git/dotfiles/alacritty/alacritty.yml",
+				"/home/master/.config/picom/picom.conf.bak",
+				"/home/master/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/master/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+				"/home/master/.Xresources",
+				"/home/master/.config/rofi/slate.rasi",
+				"/home/master/.config/rofi/base16-onedark.config",
+				"/home/master/.config/rofi/themes/sla.rasi",
+				"/home/master/.config/rofi/config",
+				"/home/master/.config/i3/clip",
+				"/home/master/.config/rofi/config.bac",
+				"/home/master/git/system/yay/src/yay-10.3.1/cmd.go",
+				"/home/master/.config/polybar/modules/date.ini",
+				"/home/master/note",
+				"/home/master/.config/betterlockscreenrc",
+				"/home/master/.zinit/plugins/lukechilds---zsh-nvm/zsh-nvm.plugin.zsh",
+				"/home/master/.profile",
+				"/etc/profile",
+				"/home/master/.zsh",
+				"/home/master/.config/QtProject.conf",
+				"/home/master/.config/greenclip.toml",
+				"/usr/share/doc/polybar/config",
+				"/home/master/.config/rofi/powermenu.rasi",
+				"/home/master/.config/rofi/clean.rasi",
+				"/home/master/.config/rofi/colors.rasi",
+				"/home/master/.config/i3/config.orig",
+				"/home/master/.config/rofi/launchers/misc/launcher.sh",
+				"/home/master/.config/rofi/launchers/misc/launchpad.rasi",
+				"/home/master/.config/rofi/applets/menu/powermenu.sh",
+				"/home/master/.config/rofi/applets/styles/colors.rasi",
+				"/home/master/.config/rofi/applets/menu/style.sh",
+				"/home/master/.config/rofi/powermenu/powermenu.sh",
+				"/home/master/.config/rofi/powermenu/styles/colors.rasi",
+				"/home/master/.config/rofi/powermenu/styles/berry.rasi",
+				"/home/master/.config/rofi/powermenu/styles/bluish.rasi",
+				"/home/master/.config/rofi/powermenu/card_alt.rasi",
+				"/home/master/.config/rofi/powermenu/full_square.rasi",
+				"/home/master/.config/rofi/powermenu/styles/nightly.rasi",
+				"/home/master/.config/rofi/powermenu/dock_rounded.rasi",
+				"/home/master/.config/user-dirs.dirs",
+				"/home/master/.config/mimeapps.list",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/battery.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/config_i3.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/glyphs.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/audacious.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/date.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/i3.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/colors/colors.nord.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/colors.ini",
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini",
+				"/home/master/.config/polybar/config",
+				"/home/master/.config/polybar/modules/brightness.ini",
+				"/home/master/.config/polybar/modules/title.ini",
+				"/home/master/.config/polybar/config_i3.ini",
+				"/home/master/git/dotfiles/config/polybar/config",
+				"/home/master/.config/polybar/scripts/brightness_i.sh",
+				"/home/master/.config/polybar/scripts/brightness_fast.sh",
+				"/home/master/.config/polybar/modules/glyphs.ini",
+				"/home/master/.config/polybar/colors.ini",
+				"/home/master/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/import-manager-50066c645b59827f15f1de05869e3053.code",
+				"/home/master/.git",
+				"/home/master/.config/sublime-text/Packages/Default/Default (Linux).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"space",
+					"alwa",
+					"xfce4",
+					"Shi",
+					"&gt;V",
+					"+V",
+					"zdharma",
+					"java",
+					"env",
+					"auto",
+					"path",
+					"nvm",
+					"Right",
+					"right",
+					"editor",
+					"<borderColor>000000</borderColor>",
+					"<color>000000</color>",
+					"\\n",
+					"exit",
+					"quit",
+					"plasm",
+					"\\n",
+					"theme",
+					"grid",
+					"notifi",
+					"(PFX_ASF\\w*).*",
+					"font",
+					"text",
+					"font",
+					"padd",
+					"font",
+					"full",
+					"radius",
+					"rad",
+					"round",
+					"icon",
+					"heig",
+					"frame",
+					"icon",
+					"stic",
+					"time",
+					"frame",
+					"bord",
+					"height",
+					"3",
+					"hist",
+					"rofi",
+					"rof",
+					"ali",
+					"xin",
+					"moni",
+					"print_empty",
+					"on_workspace",
+					"empt",
+					"print_window_title",
+					"print_focused_window_title",
+					"get_focused_window_title",
+					"title",
+					"print_focused_window_title",
+					"wm",
+					"rest",
+					"sep",
+					"left1",
+					"right1",
+					"left1",
+					"right1",
+					"left1",
+					"%{F#98c379} %{F-}",
+					"\\s+=",
+					"\\s+",
+					"\" \\| (.*)\\s+\\| rgb\\(.*\\)\\s+\\| (.*) \\|",
+					"color",
+					"urge",
+					"color",
+					"alert",
+					"alers",
+					"sep ",
+					"i3",
+					"front",
+					"batt",
+					"discharging",
+					"discharging_symbol",
+					"border",
+					"-color",
+					"$bg-color",
+					"colorb",
+					"poly",
+					"rofi",
+					"xss-lock",
+					"launch_bar",
+					"inactive",
+					"inacive",
+					"inactive",
+					"opaci",
+					"blur-method",
+					"dim",
+					"backend",
+					"ctrl",
+					"control",
+					"full",
+					"ali"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"<borderColor>FFFFFF</borderColor>",
+					"<color>FFFFFF</color>",
+					" ",
+					"$1",
+					"left",
+					"right",
+					"left",
+					"right",
+					"left",
+					"",
+					" =",
+					" ",
+					"$1 = $2",
+					"",
+					"launch"
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/master/.config"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 234.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "1,0,0,0,0,961,40,1910,1190,1920,1200,0",
+			"project": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"i3/co",
+						".config/i3/config"
+					],
+					[
+						"batt",
+						".config/polybar/modules/battery.ini"
+					],
+					[
+						"titl",
+						"polybar/modules/title.ini"
+					],
+					[
+						"glyp",
+						"polybar/modules/glyphs.ini"
+					],
+					[
+						"i3/",
+						"i3/config"
+					],
+					[
+						"dim",
+						"Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/import-manager-50066c645b59827f15f1de05869e3053.code"
+					],
+					[
+						"pi",
+						"picom/picom.conf"
+					],
+					[
+						"pic",
+						"picom/picom.conf"
+					],
+					[
+						"sett",
+						"gtk-3.0/settings.ini"
+					],
+					[
+						"poly/",
+						"polybar/config"
+					],
+					[
+						"i3/c",
+						"i3/config"
+					],
+					[
+						"polyb/",
+						"polybar/config"
+					],
+					[
+						"conf",
+						"i3/config"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 395.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 543.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 245.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 41,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
