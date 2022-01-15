@@ -9,10 +9,10 @@
 		"/home/master/git/totoro/dotfiles/.config/i3",
 		"/home/master/.config/polybar"
 	],
-	"last_version": 4121,
+	"last_version": 4126,
 	"last_window_id": 45,
 	"log_indexing": false,
-	"next_update_check": 1637624901,
+	"next_update_check": 1642319891,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -158,6 +158,17 @@
 			"file_history":
 			[
 				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
+				"/home/master/remove",
+				"/home/master/missing",
+				"/home/master/Downloads/queries_and_log",
+				"/home/master/Downloads/queries and log",
+				"/home/master/Downloads/reconciliation/payment_reports_202201101730.sql",
+				"/home/master/Downloads/reconciliation/reports_202201101730.sql",
+				"/home/master/Downloads/reconciliation/payments_202201101730.sql",
+				"/home/master/.m2/settings.xml",
+				"/home/master/Downloads/MODEL.md",
+				"/home/master/Downloads/CASA.ovpn",
+				"/run/user/1000/gvfs/smb-share:server=nas,share=home/Codice vario/viralize/video-player-v3/types/window/index.d.ts",
 				"/home/master/.config/autostart/i3.desktop",
 				"/home/master/.cache/xfce4/notifyd/log",
 				"/home/master/.config/picom/picom.conf",
@@ -273,22 +284,11 @@
 				"/home/master/git/totoro/dotfiles/.config/polybar/config_i3.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/modules/glyphs.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/modules/audacious.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/date.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/i3.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/colors/colors.nord.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/colors.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini",
-				"/home/master/.config/polybar/config",
-				"/home/master/.config/polybar/modules/brightness.ini",
-				"/home/master/.config/polybar/modules/title.ini",
-				"/home/master/.config/polybar/config_i3.ini",
-				"/home/master/git/dotfiles/config/polybar/config",
-				"/home/master/.config/polybar/scripts/brightness_i.sh",
-				"/home/master/.config/polybar/scripts/brightness_fast.sh"
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/date.ini"
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -302,6 +302,24 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\\n",
+					"volm",
+					"\\n",
+					"\\w+,",
+					"\\(",
+					".*\\, ",
+					"(settlement_date, payment_method, currency, sale_count, sale_amount, refund_count, refund_amount, chargeback_count, chargeback_amount, reversecb_count, reversecb_amount, debit_count, debit_amount, credit_count, credit_amount, total_amount, total_count,",
+					".*,",
+					"\\n",
+					"(.*) INTEGER .*,",
+					"Received notif",
+					"\\s+",
+					"\\s*",
+					"\\s",
+					"\\n",
+					"\"(.*)\": ,",
+					"\"\\^.*\"",
+					"\"^7.8.3\"",
 					"alwa",
 					"xfce4",
 					"Shi",
@@ -409,6 +427,17 @@
 				"regex": true,
 				"replace_history":
 				[
+					" ",
+					"?,",
+					"?, ",
+					"?",
+					", ",
+					",",
+					" $1",
+					" ",
+					"",
+					"$1 ",
+					"",
 					"<borderColor>FFFFFF</borderColor>",
 					"<color>FFFFFF</color>",
 					" ",
@@ -435,7 +464,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -453,7 +482,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -692,9 +721,6 @@
 			"expanded_folders":
 			[
 				"/home/master/.config",
-				"/home/master/.config/alacritty",
-				"/home/master/.config/picom",
-				"/home/master/.config/tlpui",
 				"/home/master/.config/zsh",
 				"/home/master/.config/zsh/zshCustom",
 				"/home/master/.config/zsh/zshCustom/plugins",
@@ -703,6 +729,17 @@
 			"file_history":
 			[
 				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
+				"/home/master/remove",
+				"/home/master/missing",
+				"/home/master/Downloads/queries_and_log",
+				"/home/master/Downloads/queries and log",
+				"/home/master/Downloads/reconciliation/payment_reports_202201101730.sql",
+				"/home/master/Downloads/reconciliation/reports_202201101730.sql",
+				"/home/master/Downloads/reconciliation/payments_202201101730.sql",
+				"/home/master/.m2/settings.xml",
+				"/home/master/Downloads/MODEL.md",
+				"/home/master/Downloads/CASA.ovpn",
+				"/run/user/1000/gvfs/smb-share:server=nas,share=home/Codice vario/viralize/video-player-v3/types/window/index.d.ts",
 				"/home/master/.config/autostart/i3.desktop",
 				"/home/master/.cache/xfce4/notifyd/log",
 				"/home/master/.config/picom/picom.conf",
@@ -818,22 +855,11 @@
 				"/home/master/git/totoro/dotfiles/.config/polybar/config_i3.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/modules/glyphs.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/modules/audacious.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/date.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/i3.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/colors/colors.nord.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/colors.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini",
-				"/home/master/.config/polybar/config",
-				"/home/master/.config/polybar/modules/brightness.ini",
-				"/home/master/.config/polybar/modules/title.ini",
-				"/home/master/.config/polybar/config_i3.ini",
-				"/home/master/git/dotfiles/config/polybar/config",
-				"/home/master/.config/polybar/scripts/brightness_i.sh",
-				"/home/master/.config/polybar/scripts/brightness_fast.sh"
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/date.ini"
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -847,6 +873,24 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\\n",
+					"volm",
+					"\\n",
+					"\\w+,",
+					"\\(",
+					".*\\, ",
+					"(settlement_date, payment_method, currency, sale_count, sale_amount, refund_count, refund_amount, chargeback_count, chargeback_amount, reversecb_count, reversecb_amount, debit_count, debit_amount, credit_count, credit_amount, total_amount, total_count,",
+					".*,",
+					"\\n",
+					"(.*) INTEGER .*,",
+					"Received notif",
+					"\\s+",
+					"\\s*",
+					"\\s",
+					"\\n",
+					"\"(.*)\": ,",
+					"\"\\^.*\"",
+					"\"^7.8.3\"",
 					"alwa",
 					"xfce4",
 					"Shi",
@@ -954,6 +998,17 @@
 				"regex": true,
 				"replace_history":
 				[
+					" ",
+					"?,",
+					"?, ",
+					"?",
+					", ",
+					",",
+					" $1",
+					" ",
+					"",
+					"$1 ",
+					"",
 					"<borderColor>FFFFFF</borderColor>",
 					"<color>FFFFFF</color>",
 					" ",
@@ -994,7 +1049,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -1032,11 +1087,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,6400,1440,2",
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080,0",
 			"project": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
