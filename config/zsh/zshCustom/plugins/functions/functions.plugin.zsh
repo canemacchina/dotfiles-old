@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 backup() {
-  rsync -auh --delete --info=progress2 --stats ~/.config/i3 ~/.config/alacritty ~/.config/sublime-text ~/.config/zsh ~/.config/xfce4 ~/.config/picom ~/git/system/dotfiles/config
+  rsync -auh --delete --info=progress2 --stats ~/.config/alacritty ~/.config/sublime-text ~/.config/zsh ~/git/system/dotfiles/config
   rsync -auh --delete --info=progress2 --stats ~/.config/tmux/tmux.conf ~/git/system/dotfiles/config/tmux
-  rsync -auh --stats --info=progress2 ~/.gitconfig ~/.gitignore ~/.starship ~/.vimrc ~/.zshrc ~/.xinitrc ~/git/system/dotfiles/dotfiles
+  rsync -auh --stats --info=progress2 ~/.gitconfig ~/.gitignore ~/.starship ~/.vimrc ~/.zshrc ~/git/system/dotfiles/dotfiles
   rsync -auh --stats --info=progress2 ~/.nvm/default-packages ~/git/system/dotfiles/node/default-packages
   pacman -Qqe > ~/git/system/dotfiles/packages
   cd ~/git/system/dotfiles
