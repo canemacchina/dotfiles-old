@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/opt/sublime_text/Lib/python33/sublime_plugin.py", line 944, in on_activated_async
+    run_view_callbacks('on_activated_async', view_id)
+  File "/opt/sublime_text/Lib/python33/sublime_plugin.py", line 708, in run_view_callbacks
+    callback(v, *args)
+  File "/opt/sublime_text/Lib/python33/sublime_plugin.py", line 190, in exception_handler
+    return event_handler(*args)
+  File "/home/master/.config/sublime-text/Installed Packages/TrailingSpaces.sublime-package/trailing_spaces.py", line 414, in on_activated_async
+    if settings['modified_lines_only']:
+  File "./python3.3/collections/__init__.py", line 792, in __getitem__
+  File "./python3.3/collections/__init__.py", line 784, in __missing__
+KeyError: 'modified_lines_only'

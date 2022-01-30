@@ -97,6 +97,7 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 plasma-meta
+plasma5-applets-window-buttons
 python-pip
 qogir-icon-theme
 qt5-tools
@@ -134,6 +135,7 @@ unzip
 vim
 vim-plug
 wget
+whatsdesk-bin
 which
 wireless_tools
 xdg-user-dirs-gtk
