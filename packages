@@ -69,6 +69,7 @@ libtool
 linux
 linux-firmware
 linux-headers
+logiops
 m4
 make
 man-db
@@ -104,6 +105,8 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 plasma-meta
+plasma5-applets-systemd
+plasma5-applets-window-buttons
 python-pip
 qogir-icon-theme
 qt5-tools
@@ -116,6 +119,7 @@ smartgit
 smartmontools
 smbclient
 snapd
+sof-firmware
 spotify
 sublime-text-4
 sudo
@@ -123,6 +127,7 @@ teamviewer
 telegram-desktop
 texinfo
 the_silver_searcher
+thrift
 time
 tlp
 tlp-rdw
@@ -146,6 +151,7 @@ visual-studio-code-bin
 vlc
 vulkan-radeon
 wget
+whatsdesk-bin
 which
 wireless_tools
 xdg-user-dirs
