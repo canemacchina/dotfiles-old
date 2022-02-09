@@ -34,6 +34,7 @@ fakeroot
 file
 findutils
 flex
+fprintd
 fwupd
 gawk
 gcc
@@ -107,6 +108,7 @@ rsync
 sed
 slack-desktop
 smartgit
+spectacle
 spotify
 sublime-text-4
 sudo
@@ -136,6 +138,7 @@ unrar
 unzip
 vim
 vim-plug
+visualvm
 wget
 whatsdesk-bin
 which
