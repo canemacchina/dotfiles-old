@@ -45,6 +45,7 @@ google-chrome
 grep
 groff
 grub
+grub-customizer
 gzip
 hwdetect
 hwinfo
@@ -113,6 +114,7 @@ teamviewer
 telegram-desktop
 texinfo
 the_silver_searcher
+thrift
 time
 tlp
 tlp-rdw
