@@ -92,6 +92,7 @@ os-prober
 p7zip
 pacman
 pacman-contrib
+pam-fprint-grosshack
 patch
 pavucontrol
 pipewire-alsa
@@ -122,6 +123,7 @@ tlp
 tlp-rdw
 tlpui
 tmux
+tor-browser
 touche
 touchegg
 trash-cli

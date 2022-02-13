@@ -12,7 +12,7 @@
 	"last_version": 4126,
 	"last_window_id": 45,
 	"log_indexing": false,
-	"next_update_check": 1643137161,
+	"next_update_check": 1644864930,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -157,6 +157,7 @@
 			},
 			"file_history":
 			[
+				"/home/master/touchegg.conf.txt",
 				"/home/master/.config/kwinrc",
 				"/home/master/.m2/settings.xml",
 				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
@@ -283,12 +284,11 @@
 				"/home/master/.config/polybar/modules/brightness.ini",
 				"/home/master/.config/polybar/modules/title.ini",
 				"/home/master/.config/polybar/config_i3.ini",
-				"/home/master/git/dotfiles/config/polybar/config",
-				"/home/master/.config/polybar/scripts/brightness_i.sh"
+				"/home/master/git/dotfiles/config/polybar/config"
 			],
 			"find":
 			{
-				"height": 46.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -708,6 +708,7 @@
 			],
 			"file_history":
 			[
+				"/home/master/touchegg.conf.txt",
 				"/home/master/.config/kwinrc",
 				"/home/master/.m2/settings.xml",
 				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
@@ -834,12 +835,11 @@
 				"/home/master/.config/polybar/modules/brightness.ini",
 				"/home/master/.config/polybar/modules/title.ini",
 				"/home/master/.config/polybar/config_i3.ini",
-				"/home/master/git/dotfiles/config/polybar/config",
-				"/home/master/.config/polybar/scripts/brightness_i.sh"
+				"/home/master/git/dotfiles/config/polybar/config"
 			],
 			"find":
 			{
-				"height": 46.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
