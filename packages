@@ -4,8 +4,11 @@ adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 alacritty
 android-studio
+ansible
+apache-tools
 arc-gtk-theme
 arc-kde
+async-profiler
 atool
 autoconf
 automake
@@ -39,7 +42,9 @@ egpu-switcher-git
 fakeroot
 file
 findutils
+firefox
 flex
+fprintd
 fwupd
 gawk
 gcc
@@ -120,6 +125,7 @@ smartmontools
 smbclient
 snapd
 sof-firmware
+spectacle
 spotify
 sublime-text-4
 sudo
@@ -133,6 +139,7 @@ tlp
 tlp-rdw
 tlpui
 tmux
+tor-browser
 trash-cli
 ttf-bitstream-vera
 ttf-dejavu
@@ -148,6 +155,7 @@ unzip
 vim
 vim-plug
 visual-studio-code-bin
+visualvm
 vlc
 vulkan-radeon
 wget
