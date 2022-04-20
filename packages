@@ -59,6 +59,7 @@ grub
 gzip
 hwdetect
 hwinfo
+inetutils
 intel-ucode
 intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre
@@ -71,6 +72,7 @@ kvantum-theme-arc
 kwalletmanager
 lib32-vulkan-radeon
 libtool
+libxcrypt-compat
 linux
 linux-firmware
 linux-headers
