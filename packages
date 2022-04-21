@@ -11,6 +11,7 @@ automake
 awesome-terminal-fonts
 base
 bash-completion
+bat
 binutils
 bison
 bitwarden
@@ -19,6 +20,7 @@ blueman
 bluez-utils
 bpytop
 cmake
+configuradorfnmt
 cpio
 cups
 cups-filters
@@ -56,12 +58,16 @@ intellij-idea-ultimate-edition-jre
 jdk-temurin
 jdk8-adoptopenjdk
 jq
+kaccounts-providers
+kalendar
+kdepim-addons
 kvantum
 kwalletmanager
 libtool
 linux
 linux-firmware
 linux-headers
+lsd
 m4
 make
 man-db
@@ -83,6 +89,7 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvm
+okular
 opendesktop-fonts
 openssh
 openvpn
@@ -140,6 +147,7 @@ unrar
 unzip
 vim
 vim-plug
+virtualbox
 visualvm
 wget
 whatsdesk-bin
@@ -156,4 +164,5 @@ xorg-server
 xorg-xinit
 yay
 zip
+zoom
 zsh

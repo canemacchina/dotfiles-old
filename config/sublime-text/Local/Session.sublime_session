@@ -12,7 +12,7 @@
 	"last_version": 4126,
 	"last_window_id": 45,
 	"log_indexing": false,
-	"next_update_check": 1644864930,
+	"next_update_check": 1650576520,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -157,9 +157,14 @@
 			},
 			"file_history":
 			[
+				"/home/master/.m2/settings.xml",
+				"/home/master/Downloads/jvm-dashboard_rev17.json",
+				"/home/master/Downloads/jvm-micrometer_rev9.json",
+				"/home/master/Downloads/spring-boot-hikaricp-jdbc_rev5.json",
+				"/home/master/Downloads/cache-health_rev2.json",
+				"/home/master/.config/kitty/kitty.conf",
 				"/home/master/touchegg.conf.txt",
 				"/home/master/.config/kwinrc",
-				"/home/master/.m2/settings.xml",
 				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
 				"/home/master/.config/kglobalshortcutsrc",
 				"/home/master/git/system/docker-pi-hole/docker-compose.yml",
@@ -279,12 +284,7 @@
 				"/home/master/git/totoro/dotfiles/.config/polybar/modules/i3.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/colors/colors.nord.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/colors.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini",
-				"/home/master/.config/polybar/config",
-				"/home/master/.config/polybar/modules/brightness.ini",
-				"/home/master/.config/polybar/modules/title.ini",
-				"/home/master/.config/polybar/config_i3.ini",
-				"/home/master/git/dotfiles/config/polybar/config"
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini"
 			],
 			"find":
 			{
@@ -302,6 +302,25 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\\d+\\.",
+					"\"datasource\": \"prometheus\",",
+					"\"datasource\": \"$datasource\",",
+					"datasource",
+					"datas",
+					"job",
+					"job\n",
+					"job",
+					"job=\\\"$job\\\"",
+					"job",
+					"region",
+					"regionf",
+					"region",
+					"application",
+					"application=\\\"$application\\\"",
+					"project",
+					"application",
+					"application=\\\"$application\\\"",
+					"application",
 					"border",
 					"Windows",
 					"#",
@@ -414,9 +433,14 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					"",
+					"\"datasource\": \"Prometheus\",",
+					"\"datasource\": \"prometheus\",",
+					"project=\\\"$project\\\"",
+					"project",
 					"<borderColor>FFFFFF</borderColor>",
 					"<color>FFFFFF</color>",
 					" ",
@@ -708,9 +732,14 @@
 			],
 			"file_history":
 			[
+				"/home/master/.m2/settings.xml",
+				"/home/master/Downloads/jvm-dashboard_rev17.json",
+				"/home/master/Downloads/jvm-micrometer_rev9.json",
+				"/home/master/Downloads/spring-boot-hikaricp-jdbc_rev5.json",
+				"/home/master/Downloads/cache-health_rev2.json",
+				"/home/master/.config/kitty/kitty.conf",
 				"/home/master/touchegg.conf.txt",
 				"/home/master/.config/kwinrc",
-				"/home/master/.m2/settings.xml",
 				"/home/master/.config/zsh/zshCustom/plugins/functions/functions.plugin.zsh",
 				"/home/master/.config/kglobalshortcutsrc",
 				"/home/master/git/system/docker-pi-hole/docker-compose.yml",
@@ -830,12 +859,7 @@
 				"/home/master/git/totoro/dotfiles/.config/polybar/modules/i3.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/colors/colors.nord.ini",
 				"/home/master/git/totoro/dotfiles/.config/polybar/colors.ini",
-				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini",
-				"/home/master/.config/polybar/config",
-				"/home/master/.config/polybar/modules/brightness.ini",
-				"/home/master/.config/polybar/modules/title.ini",
-				"/home/master/.config/polybar/config_i3.ini",
-				"/home/master/git/dotfiles/config/polybar/config"
+				"/home/master/git/totoro/dotfiles/.config/polybar/modules/sep.ini"
 			],
 			"find":
 			{
@@ -853,6 +877,25 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\\d+\\.",
+					"\"datasource\": \"prometheus\",",
+					"\"datasource\": \"$datasource\",",
+					"datasource",
+					"datas",
+					"job",
+					"job\n",
+					"job",
+					"job=\\\"$job\\\"",
+					"job",
+					"region",
+					"regionf",
+					"region",
+					"application",
+					"application=\\\"$application\\\"",
+					"project",
+					"application",
+					"application=\\\"$application\\\"",
+					"application",
 					"border",
 					"Windows",
 					"#",
@@ -965,9 +1008,14 @@
 				"highlight": true,
 				"in_selection": false,
 				"preserve_case": false,
-				"regex": false,
+				"regex": true,
 				"replace_history":
 				[
+					"",
+					"\"datasource\": \"Prometheus\",",
+					"\"datasource\": \"prometheus\",",
+					"project=\\\"$project\\\"",
+					"project",
 					"<borderColor>FFFFFF</borderColor>",
 					"<color>FFFFFF</color>",
 					" ",
@@ -1046,7 +1094,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,1920,1200,0",
+			"position": "0,1,0,0,0,0,0,0,0,1920,1200,8",
 			"project": "",
 			"replace":
 			{
