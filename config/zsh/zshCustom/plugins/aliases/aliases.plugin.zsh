@@ -23,16 +23,12 @@ alias profile_shell_startup='for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c
 
 # alias git_pull_all='find . -maxdepth 3 -name .git -type d | rev | cut -c 6- | rev | xargs -P10 -I {} git -C {} pull -pt'
 
-alias docker='sudo docker'
-alias docker-compose='sudo docker-compose'
-alias docker-clean='sudo docker-clean'
-
 alias update_host_no_ads='python3 ~/git/system/hosts/updateHostsFile.py -garf -e gambling fakenews'
-alias clear-eval-cache='ls $HOME/.zsh-evalcache &> /dev/null && rm -rf $HOME/.zsh-evalcache'
-alias update_system='printf "update sysyem\n"; yay -Syu'
+alias clear_eval_cache='ls $HOME/.zsh-evalcache &> /dev/null && rm -rf $HOME/.zsh-evalcache'
+alias clear_pacman_cache='yay -Scc'
+alias update_system='printf "update sysyem\n"; yay -Syu; printf "removing orphan packages"; yay -Rns $(yay -Qqtd)'
 alias update_zsh='printf "update zinit\n"; zinit self-update; printf "update zinit plugins\n"; zinit update;'
-alias clear-eval-cache='ls $HOME/.zsh-evalcache &> /dev/null && rm -rf $HOME/.zsh-evalcache'
-alias update='clear-eval-cache; update_system; update_zsh; nvm upgrade; source ~/.zshrc'
+alias update='clear_eval_cache; clear_pacman_cache; update_system; update_zsh; nvm upgrade; source ~/.zshrc'
 
 alias tmux_layout='tmux list-windows -F "#{window_active} #{window_layout}" | grep "^1" | cut -d " " -f 2'
 alias tx='tmuxinator'

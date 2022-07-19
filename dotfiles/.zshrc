@@ -1,6 +1,6 @@
 export EDITOR=vim
 
-export PATH=$HOME/.local/bin/jooby-cli-2.11.0/bin:$PATH
+export PATH=$PATH:$HOME/sdks/flutter/bin
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
@@ -13,6 +13,8 @@ export DISABLE_AUTO_UPDATE="true"
 export ZSH_CUSTOM=${HOME}/.config/zsh/zshCustom
 
 export STARSHIP_CONFIG=~/.starship
+
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
 export NVM_AUTO_USE=true
 

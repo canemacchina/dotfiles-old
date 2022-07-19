@@ -70,7 +70,7 @@ font:
   italic:
     family: RobotoMono Nerd Font
 
-  size: 8
+  size: 12
 
 key_bindings:
   - { key: V,     mods: Control,        action: Paste             }
