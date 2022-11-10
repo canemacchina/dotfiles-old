@@ -1,6 +1,6 @@
 export EDITOR=vim
 
-export PATH=$PATH:$HOME/sdks/flutter/bin
+#export PATH=$PATH:$HOME/sdks/flutter/bin
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';

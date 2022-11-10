@@ -3,8 +3,6 @@ adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 alacritty
-android-studio
-ansible
 arc-gtk-theme
 arc-kde
 ark
@@ -12,7 +10,6 @@ atool
 autoconf
 automake
 awesome-terminal-fonts
-aws-cli
 base
 bash-completion
 bat
@@ -53,16 +50,17 @@ gettext
 git
 glances
 gnome-firmware
+gnu-netcat
 google-chrome
 grep
 groff
 grub
 grub-customizer
-gwe
 gwenview
 gzip
 hwdetect
 hwinfo
+inetutils
 intel-ucode
 intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre
@@ -79,7 +77,9 @@ kompare
 ksystemlog
 kvantum
 kwalletmanager
+kwin-bismuth
 libtool
+libxcrypt-compat
 linux
 linux-firmware
 linux-headers
@@ -98,7 +98,6 @@ neofetch
 nerd-fonts-droid-sans-mono
 nerd-fonts-noto
 nerd-fonts-roboto-mono
-nerd-fonts-ubuntu-mono
 network-manager-applet
 networkmanager
 networkmanager-openvpn
@@ -128,10 +127,8 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 plasma-meta
-plasma-wayland-session
 plasma5-applets-thermal-monitor
 plasma5-applets-window-buttons
-python-boto3
 python-pip
 qogir-icon-theme
 qt5-tools
@@ -142,8 +139,10 @@ slack-desktop
 smartgit
 spectacle
 spotify
+stacer
 sublime-text-4
 sudo
+sweeper
 teams
 teamviewer
 telegram-desktop
@@ -151,10 +150,12 @@ texinfo
 the_silver_searcher
 thrift
 time
+tldr
 tlp
 tlp-rdw
 tlpui
 tmux
+tmuxinator
 tor-browser
 touche
 touchegg
@@ -165,6 +166,7 @@ ttf-opensans
 ttf-roboto
 ttf-roboto-mono
 ttf-ubuntu-font-family
+ttf-ubuntumono-nerd
 tzupdate
 unrar
 unzip
@@ -177,6 +179,7 @@ wget
 whatsdesk-bin
 which
 wireless_tools
+wmctrl
 xdg-user-dirs-gtk
 xf86-video-intel
 xorg-docs

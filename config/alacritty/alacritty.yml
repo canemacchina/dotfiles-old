@@ -70,7 +70,10 @@ font:
   italic:
     family: RobotoMono Nerd Font
 
-  size: 12
+  size: 8
+
+#shell:
+#  program: /usr/bin/tmux
 
 key_bindings:
   - { key: V,     mods: Control,        action: Paste             }
